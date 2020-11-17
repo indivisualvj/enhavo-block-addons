@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping">
+    <entity name="App\Entity\DummyBlock" table="app_dummy_block">
+
+        <field name="jumpMark" nullable="true" />
+        <field name="overline" nullable="true" />
+        <field name="headline" nullable="true" />
+        <field name="subheadline" nullable="true" />
+        <field name="textContent" type="text" nullable="true" />
+        <field name="ctaTitle" nullable="true" />
+        <field name="ctaLink" nullable="true" />
+        <field name="ctaTarget" nullable="true" />
+        <field name="layout" nullable="true" />
+        <field name="position" type="integer" nullable="true" />
+
+        <one-to-one field="image" target-entity="Enhavo\Bundle\MediaBundle\Model\FileInterface" />
+        <one-to-one field="file" target-entity="Enhavo\Bundle\MediaBundle\Model\FileInterface" />
+        <one-to-one field="video" target-entity="Enhavo\Bundle\MediaBundle\Model\FileInterface" />
+
+    </entity>
+</doctrine-mapping>

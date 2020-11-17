@@ -6,7 +6,7 @@ namespace App\Entity\Traits;
 
 use Enhavo\Bundle\MediaBundle\Model\FileInterface;
 
-trait PictureTrait
+trait ImageTrait
 {
     /** @var FileInterface|null */
     private $picture;

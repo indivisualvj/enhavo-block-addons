@@ -4,17 +4,18 @@
 namespace App\Utility;
 
 
-use Enhavo\Bundle\FormBundle\Form\Type\WysiwygType;
+use Enhavo\Bundle\MediaBundle\Form\Type\MediaType;
 use Symfony\Component\Form\FormBuilderInterface;
 
-class TextHelper
+class ImageHelper
 {
 
     public static function addFormFields(FormBuilderInterface $builder)
     {
         $builder
-            ->add('textContent', WysiwygType::class, [
-                'label' => 'Text'
+            ->add('image', MediaType::class, [
+                'label' => 'Bild',
+                'multiple' => false,
             ])
         ;
     }

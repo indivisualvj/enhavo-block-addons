@@ -2,97 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0731bc81-031a-468f-ad52-172095557f3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/enhavo-block-addons.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/services/enhavo/enhavo_app.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/theme/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/theme/images/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/theme/styles/base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/assets.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/bazinga_hateoas.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/jms_serializer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/enhavo.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/enhavo_app.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/fos_rest.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/jms_serializer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/deprecations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/jms_serializer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/webpack_encore.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/swiftmailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/swiftmailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/webpack_encore.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/twig_extensions.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/webpack_encore.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/preload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/enhavo_app.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/enhavo_content.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/enhavo_media.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/fos_js_routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Traits/CtaTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Traits/FileTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Traits/JumpMarkTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Traits/LayoutTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Traits/PictureTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Traits/PositionTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Traits/TextTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Traits/TitledTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Traits/VideoTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utility/CtaHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utility/JumpMarkHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utility/TextHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utility/TitledHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/doctrine/DummyBlock.orm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/DummyBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/Type/DummyBlockType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utility/ImageHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Traits/PictureTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Traits/ImageTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Traits/TextTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Traits/TextTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utility/TextHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utility/TextHelper.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,13 +36,22 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/config/doctrine" />
+      <recent name="$PROJECT_DIR$/src/Utility" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -137,14 +63,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605597179677</updated>
-      <workItem from="1605597180762" duration="1422000" />
+      <workItem from="1605597180762" duration="2552000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1605598618075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605598618075</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="996" y="307" width="552" height="858" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605600170324">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="996" y="307" width="552" height="858" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1605600170324" />
+    <state x="878" y="312" width="796" height="851" key="CommitChangelistDialog2" timestamp="1605598617995">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="878" y="312" width="796" height="851" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1605598617995" />
+    <state x="1053" y="469" width="445" height="537" key="NewPhpClassDialog" timestamp="1605600117312">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1053" y="469" width="445" height="537" key="NewPhpClassDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1605600117312" />
     <state x="784" y="375" key="SettingsEditor" timestamp="1605597221007">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

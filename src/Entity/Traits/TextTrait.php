@@ -7,22 +7,22 @@ namespace App\Entity\Traits;
 trait TextTrait
 {
     /** @var string|null */
-    private $text;
+    private $textContent;
 
     /**
      * @return string|null
      */
-    public function getText(): ?string
+    public function getTextContent(): ?string
     {
-        return $this->text;
+        return $this->textContent;
     }
 
     /**
-     * @param string|null $text
+     * @param string|null $textContent
      */
-    public function setText(?string $text): void
+    public function setTextContent(?string $textContent): void
     {
-        $this->text = $text;
+        $this->textContent = $textContent;
     }
 
 
