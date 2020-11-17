@@ -11,19 +11,18 @@ enhavo_app:
 
 enhavo_block:
     blocks:
-        picture:
-            type: picture
-        text:
-            type: text
-        text_picture:
-            type: text_picture
-        blockquote:
-            type: blockquote
-        video:
-            type: video
-        one_column:
-            type: one_column
-        two_column:
-            type: two_column
-        three_column:
-            type: three_column
+        dummy:
+            type: base
+            label: 'Dummy'
+            factory: App\Factory\DummyBlockFactory
+            model: App\Entity\DummyBlock
+            form: App\Form\Type\DummyBlockType
+            template: 'theme/block/dummy.html.twig'
+
+        dummy_list:
+            type: base
+            label: 'Dummy-List'
+            factory: App\Factory\DummyListBlockFactory
+            model: App\Entity\DummyListBlock
+            form: App\Form\Type\DummyListBlockType
+            template: 'theme/block/dummy-list.html.twig'

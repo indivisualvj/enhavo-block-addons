@@ -11,6 +11,7 @@
         <field name="ctaLink" nullable="true" />
         <field name="ctaTarget" nullable="true" />
         <field name="layout" nullable="true" />
+        <field name="link" nullable="true" />
         <field name="position" type="integer" nullable="true" />
 
         <one-to-one field="image" target-entity="Enhavo\Bundle\MediaBundle\Model\FileInterface" />

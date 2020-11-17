@@ -32,4 +32,11 @@ class CtaHelper
             ])
         ;
     }
+
+    public static function copy($original, $copy)
+    {
+        $copy->setCtaTitle($original->getCtaTitle());
+        $copy->setCtaLink($original->getCtaLink());
+        $copy->setCtaTarget($original->getCtaTarget());
+    }
 }

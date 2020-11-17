@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping">
+    <entity name="App\Entity\DummyListBlockItem" table="app_dummy_list_block_item">
+
+        <id name="id" type="integer" column="id">
+            <generator />
+        </id>
+
+        <field name="overline" nullable="true" />
+        <field name="headline" nullable="true" />
+        <field name="subheadline" nullable="true" />
+        <field name="position" type="integer" nullable="true" />
+
+        <many-to-one field="parent"
+                     inversed-by="items"
+                     target-entity="App\Entity\DummyListBlock"
+        >
+            <join-column on-delete="CASCADE" />
+
+        </many-to-one>
+
+    </entity>
+</doctrine-mapping>

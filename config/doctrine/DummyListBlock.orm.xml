@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping">
+    <entity name="App\Entity\DummyListBlock" table="app_dummy_list_block">
+
+        <one-to-many mapped-by="parent"
+                     field="items"
+                     target-entity="App\Entity\DummyListBlockItem"
+                     orphan-removal="true"
+        >
+            <cascade>
+                <cascade-all/>
+            </cascade>
+            <order-by>
+                <order-by-field name="position"/>
+            </order-by>
+        </one-to-many>
+
+    </entity>
+</doctrine-mapping>

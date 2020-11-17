@@ -23,4 +23,11 @@ class TitledHelper
             ])
         ;
     }
+
+    public static function copy($original, $copy)
+    {
+        $copy->setOverline($original->getOverline());
+        $copy->setHeadline($original->getHeadline());
+        $copy->setSubheadline($original->getSubheadline());
+    }
 }

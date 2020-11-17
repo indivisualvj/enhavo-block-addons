@@ -18,4 +18,9 @@ class TextHelper
             ])
         ;
     }
+
+    public static function copy($original, $copy)
+    {
+        $copy->setTextContent($original->getTextContent());
+    }
 }

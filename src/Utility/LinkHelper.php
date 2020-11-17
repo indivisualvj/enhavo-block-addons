@@ -7,19 +7,20 @@ namespace App\Utility;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 
-class JumpMarkHelper
+class LinkHelper
 {
+
     public static function addFormFields(FormBuilderInterface $builder)
     {
         $builder
-            ->add('jumpMark', TextType::class, [
-                'label' => 'Sprungmarke'
+            ->add('link', TextType::class, [
+                'label' => 'Link'
             ])
         ;
     }
 
     public static function copy($original, $copy)
     {
-        $copy->setJumpMark($original->getJumpMark());
+        $copy->setLink($original->getLink());
     }
 }

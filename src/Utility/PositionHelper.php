@@ -4,22 +4,22 @@
 namespace App\Utility;
 
 
-use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Enhavo\Bundle\FormBundle\Form\Type\PositionType;
+use Enhavo\Bundle\MediaBundle\Form\Type\MediaType;
 use Symfony\Component\Form\FormBuilderInterface;
 
-class JumpMarkHelper
+class PositionHelper
 {
+
     public static function addFormFields(FormBuilderInterface $builder)
     {
         $builder
-            ->add('jumpMark', TextType::class, [
-                'label' => 'Sprungmarke'
-            ])
+            ->add('position', PositionType::class)
         ;
     }
 
     public static function copy($original, $copy)
     {
-        $copy->setJumpMark($original->getJumpMark());
+        $copy->setPosition($original->getPosition());
     }
 }
