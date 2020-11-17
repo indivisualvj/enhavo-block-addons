@@ -1,0 +1,4 @@
+#app_admin:
+#    resource: ./routes/admin/
+#    type: directory
+#    prefix: /admin
